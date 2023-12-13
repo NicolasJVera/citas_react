@@ -4,7 +4,7 @@ const ListadoPacientes = ({pacientes, setPaciente, eliminarPaciente }) => {
 
 
   return (
-    <div className="w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll">
+    <div className="lg:w-3/5 md:h-screen overflow-y-scroll">
 
       {pacientes && pacientes.length ? (
         <>
