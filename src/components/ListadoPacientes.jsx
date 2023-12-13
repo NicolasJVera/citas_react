@@ -11,7 +11,7 @@ const ListadoPacientes = ({pacientes, setPaciente, eliminarPaciente }) => {
             <h2 className="font-black text-3xl text-center">Listado Pacientes</h2>
             <p className=" text-xl text-center mb-10">
               Administra tus {''}
-              <span className=" text-indigo-600 font-bold">Pacientes y Citas</span>
+              <span className=" text-indigo-700 font-bold">Pacientes y Citas</span>
             </p>
       
             {pacientes.map( paciente => (
